@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:ital,wght@0,500;0,700;1,800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Rubik&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card,
+img {
+  border-radius: 0.625rem !important;
+}
+.card {
+  background-color: hsl(216, 50%, 16%) !important;
+}
+p {
+  color: hsl(215, 51%, 70%);
+  margin-top: 1.313rem !important;
+  margin-left: 0;
+  font-size: 18px !important;
+}
+.attribution {
+  font-size: 0.688rem;
+  text-align: center;
+  color: black;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}
+img {
+  width: 20rem !important;
+}
+.card-body {
+  padding: 15px 31px !important;
+}
+.card-body-payement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon p {
+  margin: 0 0.625rem !important;
+}
+.price span {
+  color: hsl(178, 100%, 50%);
+  margin: 0 0.625rem;
+}
+hr {
+  border: 1px solid hsl(215, 32%, 27%) !important;
+  width: 20rem;
+  margin: 0 auto !important;
+}
+.profile img {
+  width: 2rem !important;
+  height: 2rem;
+  margin: 0;
+}
+.profile {
+  padding: 31px !important;
+  display: flex;
+  align-items: center;
+}
+.profile p {
+  margin: 0 1.25rem !important;
+}
+.profile span {
+  color: white;
+}
+.profile span:hover {
+  color: hsl(178, 100%, 50%);
+}
+.card-body h3:hover {
+  color: hsl(178, 100%, 50%) !important;
+}
+.img-hover:hover {
+  opacity: 0.4;
+}
+.img-1 {
+  margin: 1.438rem auto !important;
+}
+.img-1:hover {
+  border-radius: 10px;
+  margin: 1.438rem auto !important;
+  background-color: hsl(178, 100%, 50%);
+  background-image: url(../images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h3 {
+  font-size: 18px !important;
+}
+@media screen and (max-width: 375px) {
+  .card {
+    width: 20rem !important;
+    row-gap: 13px !important;
+  }
+  img {
+    width: 18rem !important;
+  }
+  h3 {
+    font-size: 18px !important;
+    margin: 0 !important;
+  }
+  p {
+    margin: 0 !important;
+  }
+  .card-body {
+    padding: 0 !important;
+    margin: 0 17px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+    row-gap: 13px !important;
+  }
+  .profile {
+    padding: 0 18px 18px 18px !important;
+    font-size: 15px !important;
+  }
+  hr {
+    width: 18rem !important;
+  }
+}
